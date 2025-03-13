@@ -1,0 +1,42 @@
+{
+    "id": "xiejie",
+    "title": "XiaJie for Foundry VTT (unofficial system)",
+    "description": "This system is an unofficial implementation of the Xia Jie Zhi Lv Rulebook created by Lu Xixi, developed and maintained by community enthusiasts.",
+    "version": "0.0.1",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11.315"
+    },
+    "url": "https://github.com/xiajiefvtt/xiajiefvtt",
+    "manifest": "https://github.com/xiajiefvtt/xiajiefvtt/releases/latest/download/system.json",
+    "download": "https://github.com/xiajiefvtt/xiajiefvtt/releases/download/v0.0.1/xiajiefvtt-v0.0.1.zip",
+    "license": "LICENSE.txt",
+    "authors": [
+        {
+            "name": "xiajiefvtt",
+            "url": "https://github.com/xiajiefvtt",
+            "flags": {}
+        }
+    ],
+    "esmodules": [
+        "module/xiajie.mjs"
+    ],
+    "styles": [
+        "css/xiajie.css"
+    ],
+    "languages": [
+        {
+            "lang": "cn",
+            "name": "Chinese",
+            "path": "lang/cn.json",
+            "flags": {}
+        }
+    ],
+    "socket": true,
+    "grid": {
+        "distance": 1,
+        "units": "m"
+    },
+    "primaryTokenAttribute": "health",
+    "secondaryTokenAttribute": "power"
+}
