@@ -1,6 +1,6 @@
 {
-    "id": "xiejie",
-    "title": "XiaJie for Foundry VTT (unofficial system)",
+    "id": "xiajiefvtt",
+    "title": "侠界之旅",
     "description": "This system is an unofficial implementation of the Xia Jie Zhi Lv Rulebook created by Lu Xixi, developed and maintained by community enthusiasts.",
     "version": "0.0.1",
     "compatibility": {
@@ -18,25 +18,29 @@
             "flags": {}
         }
     ],
-    "esmodules": [
-        "module/xiajie.mjs"
-    ],
-    "styles": [
-        "css/xiajie.css"
-    ],
-    "languages": [
+    "readme": "README.md",
+    "media": [
         {
-            "lang": "cn",
-            "name": "Chinese",
-            "path": "lang/cn.json",
-            "flags": {}
+            "type": "setup",
+            "url": "systems/xiajiefvtt/assets/xiajielogo.png",
+            "thumbnail": "systems/xiajiefvtt/assets/xiajielogo.png"
         }
     ],
-    "socket": true,
-    "grid": {
-        "distance": 1,
-        "units": "m"
-    },
-    "primaryTokenAttribute": "health",
-    "secondaryTokenAttribute": "power"
+  "esmodules": ["module/xiajiefvtt.mjs"],
+  "styles": ["css/xiajiefvtt.css"],
+  "languages": [
+    {
+      "lang": "cn",
+      "name": "Chinese",
+      "path": "lang/cn.json"
+    }
+  ],
+  "packs": [],
+  "packFolders": [],
+  "socket": false,
+  "background": "systems/xiajiefvtt/assets/xiajielogo.png",
+  "gridDistance": 1,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power"
 }
