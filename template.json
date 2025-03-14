@@ -1,6 +1,8 @@
 {
   "Actor": {
-    "types": ["character", "npc"]
+    "types": ["character", "npc"],
+    "name2_1": "",
+    "name2_2": ""
   },
   "Item": {
     "types": ["item", "feature", "spell"]
