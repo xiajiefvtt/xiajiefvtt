@@ -12,13 +12,13 @@ export class XiaJieFvttActorSheet extends ActorSheet {
   static get defaultOptions() {
     return foundry.utils.mergeObject(super.defaultOptions, {
       classes: ['xiajiefvtt', 'sheet', 'actor'],
-      width: 600,
-      height: 600,
+      width: 1000,
+      height: 618,
       tabs: [
         {
           navSelector: '.sheet-tabs',
           contentSelector: '.sheet-body',
-          initial: 'features',
+          initial: 'features', // default tab
         },
       ],
     });

@@ -1,7 +1,7 @@
 {
     "id": "xiajiefvtt",
     "title": "侠界之旅",
-    "description": "This system is an unofficial implementation of the Xia Jie Zhi Lv Rulebook created by Lu Xixi, developed and maintained by community enthusiasts.",
+    "description": "本系统是侠界之旅规则的非官方实现，由社区爱好者开发和维护。",
     "version": "0.0.1",
     "compatibility": {
         "minimum": "11",

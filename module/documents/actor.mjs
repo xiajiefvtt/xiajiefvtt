@@ -27,7 +27,11 @@ export class XiaJieFvttActor extends Actor {
    */
   prepareDerivedData() {
     const actorData = this;
+    const systemData = actorData.system;
     const flags = actorData.flags.xiajiefvtt || {};
+
+    this._prepareCharacterData(actorData);
+    this._prepareNpcData(actorData);
   }
 
   /**
