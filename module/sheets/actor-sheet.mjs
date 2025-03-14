@@ -18,7 +18,7 @@ export class XiaJieFvttActorSheet extends ActorSheet {
         {
           navSelector: '.sheet-tabs',
           contentSelector: '.sheet-body',
-          initial: 'features', // default tab
+          initial: 'description', // default tab
         },
       ],
     });

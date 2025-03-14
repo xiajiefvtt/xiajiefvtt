@@ -30,8 +30,8 @@ export class XiaJieFvttActor extends Actor {
     const systemData = actorData.system;
     const flags = actorData.flags.xiajiefvtt || {};
 
-    this._prepareCharacterData(actorData);
-    this._prepareNpcData(actorData);
+    // this._prepareCharacterData(actorData);
+    // this._prepareNpcData(actorData);
   }
 
   /**
