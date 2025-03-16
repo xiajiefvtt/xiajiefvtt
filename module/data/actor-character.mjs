@@ -7,8 +7,8 @@ export default class XiaJieFvttCharacter extends XiaJieFvttActorBase {
     const requiredInteger = { required: true, nullable: false, integer: true };
     const schema = super.defineSchema();
 
-    schema.name2_1 = new fields.StringField({ required: false, blank: true });
-    schema.name2_2 = new fields.StringField({ required: false, blank: true });
+    schema.name_zi = new fields.StringField({ required: false, blank: true });
+    schema.name_hao = new fields.StringField({ required: false, blank: true });
 
     schema.attributes = new fields.SchemaField({
       level: new fields.SchemaField({

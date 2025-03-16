@@ -22,8 +22,8 @@
     "media": [
         {
             "type": "setup",
-            "url": "systems/xiajiefvtt/assets/xiajielogo.png",
-            "thumbnail": "systems/xiajiefvtt/assets/xiajielogo.png"
+            "url": "systems/xiajiefvtt/assets/bg.png",
+            "thumbnail": "systems/xiajiefvtt/assets/bg.png"
         }
     ],
   "esmodules": ["module/xiajiefvtt.mjs"],
@@ -38,7 +38,7 @@
   "packs": [],
   "packFolders": [],
   "socket": false,
-  "background": "systems/xiajiefvtt/assets/xiajielogo.png",
+  "background": "systems/xiajiefvtt/assets/bg.png",
   "gridDistance": 1,
   "gridUnits": "m",
   "primaryTokenAttribute": "health",

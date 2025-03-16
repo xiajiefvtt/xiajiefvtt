@@ -54,7 +54,7 @@
     }
   }
 
-  .charname2_1, .charname2_2 {
+  .charname_zi, .charname_hao {
     height: 25px;
     margin: 0;
     input {
@@ -64,14 +64,14 @@
       text-align: center;
     }
   }
-  .charname2_1 {
+  .charname_zi {
     // flex-basis: 35px;
     // width: 60px;
     // flex-grow: 4;
     flex: 4 1 90px;
     margin-right: 3px;
   }
-  .charname2_2 {
+  .charname_hao {
     flex-grow: 6;
   }
 

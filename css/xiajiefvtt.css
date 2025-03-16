@@ -254,21 +254,21 @@
   margin: 0;
   text-align: center;
 }
-.xiajiefvtt .sheet-header .charname2_1, .xiajiefvtt .sheet-header .charname2_2 {
+.xiajiefvtt .sheet-header .charname_zi, .xiajiefvtt .sheet-header .charname_hao {
   height: 25px;
   margin: 0;
 }
-.xiajiefvtt .sheet-header .charname2_1 input, .xiajiefvtt .sheet-header .charname2_2 input {
+.xiajiefvtt .sheet-header .charname_zi input, .xiajiefvtt .sheet-header .charname_hao input {
   width: 100%;
   height: 100%;
   margin: 0;
   text-align: center;
 }
-.xiajiefvtt .sheet-header .charname2_1 {
+.xiajiefvtt .sheet-header .charname_zi {
   flex: 4 1 90px;
   margin-right: 3px;
 }
-.xiajiefvtt .sheet-header .charname2_2 {
+.xiajiefvtt .sheet-header .charname_hao {
   flex-grow: 6;
 }
 .xiajiefvtt .sheet-tabs {
